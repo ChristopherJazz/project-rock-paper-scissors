@@ -14,3 +14,23 @@ function getComputerChoice() {
 
 let computerChoice = getComputerChoice();
 console.log(computerChoice);
+
+
+// Select a choice for the human
+let humanChoice = prompt("What is your choice?");
+
+function getHumanChoice() {
+
+    if (humanChoice === "rock") {
+        return "rock";
+    } else if (humanChoice === "paper") {
+        return "paper";
+    } else if (humanChoice === "scissors") {
+        return "scissors";
+    }
+      else {
+        return prompt("Please make a correct choice and restart")
+    }
+}
+
+console.log(humanChoice);
