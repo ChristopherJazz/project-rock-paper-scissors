@@ -1,0 +1,17 @@
+body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+#score, #result {
+      margin-top: 20px;
+      font-size: 18px;
+    }
